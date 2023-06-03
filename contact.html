@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="contact.css" type="text/css">
+</head>
+<body bgcolor="lightblue">
+    <h1>Contact Pablo!</h1>
+    <div>
+        <nav class="navbar">
+            <a href="index.html" target="_self" style="text-decoration: none;">Home</a>
+            <a href="aboutme.html" target="_self" style="text-decoration: none;">About Pablo</a>
+            <a href="gallery.html" target="_self" style="text-decoration: none;">Gallery</a>
+        </nav>
+        <div>
+            <p>WARNING! PLEASE DO NOT FORGET TO FILL OUT ALL FORMS, IF DISREGARDED YOUR CHANCE OF CONTACTING PABLO WILL BE IGNORED!</p>
+        </div>
+        <br>
+        <br>
+    </div>
+    <form action="action_page.php" method="get">
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+        <div>
+            <label for="fname">Middle initial</label>
+            <input type="text" id="fname" name="fname" placeholder="B." required>
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Johndoe@gmail.com" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="pass" name="pass" style="-webkit-text-security: asterisk" required>
+        </div>
+        <div>
+            <label for="password">Credit Card Information:</label>
+            <input type="password" id="pass" name="pass" style="-webkit-text-security: asterisk" required>
+        </div>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate" placeholder="yyyy-mm-dd">
+        </div>
+        <br>
+        <!-- Id = used to identify the individual element, always unique -->
+        <div id="title">
+            <label for="title">Why do you want to contact Pablo?</label>
+            <br>
+            <label>Just thought it would be cool</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs.">
+            <br>
+            <label>Why would I wanna contact Him?</label>
+            <input type="radio" id="Phd" name="title" value="Phd.">
+            <br>
+            <label>ETC.</label>
+            <input type="radio" id="Mr" name="title" value="Mr.">
+        </div>
+        <br>
+        <br>
+            <label for="subscribe">Prefer Email?</label> 
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+        <br>
+        <br>
+        <br>
+        <textarea>Lorem Ipsum</textarea>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

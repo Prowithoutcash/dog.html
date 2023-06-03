@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.navbar{
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 30px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover{
+        color: red;
+}
+li{
+    text-align: left;
+}
+.a{
+    margin-left: 1100px;
+}
+.image{
+    height: 8%;
+    width: 8%;
+}
+.ol{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ordered{
+    display: inline-block;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+.imagecenter{
+    display: flex;
+}
+.paragraph{
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.na{
+    margin-left: 1000px;
+}
+.imagecentering{
+    display: flex;
+}
+.paragraphing{
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+@media (max-width: 576px) {
+    p {
+    font-size: 0.7rem;
+    }
+    .a{
+        margin-left: 265px;
+    }
+    }
+    @media (max-width: 768px) {
+    h3{
+    font-size: 0.70 !important;
+    }
+    }
